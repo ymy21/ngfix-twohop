@@ -1,3 +1,21 @@
 result
 build
 .vscode
+# 实验归档：大型文件留在服务器
+/data/
+/result/
+/output/
+/build/
+__pycache__/
+*.pyc
+*.bak
+*.index
+*.fbin
+*.ibin
+*.u32
+*.bin
+*.zip
+*.tar
+*.tar.gz
+.env
+.env.*

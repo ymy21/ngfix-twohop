@@ -1,0 +1,1985 @@
+{
+  "description": "Source snapshot for sequential K100 M16 then M32 experiments; excludes results, indexes, build artifacts, caches and backups.",
+  "files": [
+    {
+      "path": "analysis/analyze_bound_features.py",
+      "sha256_lf": "74bf505d620b06f692cd84baaddc122dc72680f9d21edb1656cd0193ebbac290"
+    },
+    {
+      "path": "analysis/analyze_boundtwohop.py",
+      "sha256_lf": "975b7098995ed71be3037983205e7f9f75548d2f12e8428994adba4417c7b26c"
+    },
+    {
+      "path": "analysis/analyze_boundtwohop_events.py",
+      "sha256_lf": "b9d849339897e838cc3a01e6d8aa943bbd9cf8c4fad56984155581442a94066b"
+    },
+    {
+      "path": "analysis/analyze_clean_qps.py",
+      "sha256_lf": "cefb8ebf25aa32f4e251da4ab03e040dbf5c5d1a4feba20a8255785892c88787"
+    },
+    {
+      "path": "analysis/analyze_hnsw_cur_mid_full.py",
+      "sha256_lf": "6cddf3f9cf2ac863c06ca85bc8eee33604c578cd4d54ff58f8c7fd1f4a405acd"
+    },
+    {
+      "path": "analysis/analyze_hnsw_selective_prefix.py",
+      "sha256_lf": "0bbaa47056a4df200b786d8aa9a410b15ce74eb29382aa8b0f84ee1329335fb0"
+    },
+    {
+      "path": "analysis/analyze_hnsw_stage1.py",
+      "sha256_lf": "bdf18c3debce8ce6731fac0b9c1a797ee62d7b0cc78104eafcb202f8f3acf24d"
+    },
+    {
+      "path": "analysis/analyze_jump_nn_selection.py",
+      "sha256_lf": "4852e33abae221ef1c1e4b3731814784fe09309a90fe66f925c7050123924a6c"
+    },
+    {
+      "path": "analysis/analyze_jump_trigger_groups.py",
+      "sha256_lf": "c0435865c13ae8d60eee62ef8881be265ce5bf66e16733b5bf5741904e4be187"
+    },
+    {
+      "path": "analysis/analyze_triplet_structure.py",
+      "sha256_lf": "153db94940f3fbf8f828022df0432a8ce49657535d8d18aae3c5897a248b91a5"
+    },
+    {
+      "path": "analysis/BOUND_FEATURES_AND_TIMING.md",
+      "sha256_lf": "d285256d6928bd36f65463bc566dc5bdafb759b547935e2dd738d9dc68e64c41"
+    },
+    {
+      "path": "analysis/build_complete_experiment_report.py",
+      "sha256_lf": "0d3ebfcd2efc2c0ef8cd9d946593693fb3c4c45dfc04c6ca9a65ca71ae1ffafa"
+    },
+    {
+      "path": "analysis/check_residual_query_advantage.py",
+      "sha256_lf": "337a0533861a6bad16fea537076ea15165e5735148f92fae44fb33587840581d"
+    },
+    {
+      "path": "analysis/check_server_code_20261015.py",
+      "sha256_lf": "3abae2fc95c3619a496bf75e1c2ccd1821bed4be9c3f9c203a6f500efa2bb440"
+    },
+    {
+      "path": "analysis/compare_graph_k_matrix.py",
+      "sha256_lf": "460c5bd312ea6d57305eecd11aa44d8a66fc74888fbd3604f0e3c609934a0171"
+    },
+    {
+      "path": "analysis/compare_jump_schedule.py",
+      "sha256_lf": "d4a339de862974a428798b0f25c5d48918c334b8ef5b048cdff55a405c18baf5"
+    },
+    {
+      "path": "analysis/derive_feature_distributions.py",
+      "sha256_lf": "c16819f451d1a85f6f558b113d0540fb78b74877bb203321aece3ddea1a35112"
+    },
+    {
+      "path": "analysis/GRAPH_K_MATRIX_COMMANDS.md",
+      "sha256_lf": "e09f715dde2370a19398bd3d6e38a05223b2908bdf0e3ac0ed31bdb19bf2e00c"
+    },
+    {
+      "path": "analysis/HNSW_cur_mid\u5168\u90bb\u5c45\u5b9e\u9a8c\u8bf4\u660e_20261015.md",
+      "sha256_lf": "1c079e48c8ac6a5873e5eb2d3f6d59fbffe2b5af81bb6c0a8cfebd775d8f2612"
+    },
+    {
+      "path": "analysis/HNSW_STAGE1_EXPERIMENT.md",
+      "sha256_lf": "ba56ca2c9c8936883723efab1d9271f93abc57de55ae3d046ee1e02bf3f027ce"
+    },
+    {
+      "path": "analysis/HNSW\u9009\u62e9\u6027\u4e8c\u8df3\u8fd0\u884c\u8bf4\u660e_20261015.md",
+      "sha256_lf": "5f23854c2e69f60cd7a289f0477e158ed7c0b5b7d1df582964886d9d4108bb1d"
+    },
+    {
+      "path": "analysis/latest_server_sync_files.txt",
+      "sha256_lf": "231d0d7ed1938d41dda2cc5767806ca4167a2e00749c0149ef712a0650f28188"
+    },
+    {
+      "path": "analysis/NGFIX_GRID_1K_COMMANDS.md",
+      "sha256_lf": "080703025309dc85c90660d24fcd12334738ba4b6e2f2346163dbeaf6ec1c802"
+    },
+    {
+      "path": "analysis/plot_clean_qps.py",
+      "sha256_lf": "abe70798f9074ad887b1c71f353539e28c98e7d3b63f874b012754f427ea2fee"
+    },
+    {
+      "path": "analysis/render_experiment_figures.py",
+      "sha256_lf": "ffd41d3e5ad7f56144484c8fd6a373ee83689b26832f300bcf2153e9fd74a0dc"
+    },
+    {
+      "path": "analysis/render_residual_query_analysis.py",
+      "sha256_lf": "8320b8a8dce70cbf774a40c19dcd5f270a389f06751ea2fb954454b8280d1fdf"
+    },
+    {
+      "path": "analysis/report_field_catalog.py",
+      "sha256_lf": "c42c39284c156e2a0393d3973442417bdc4fa607ae364fea8dca53feb094742f"
+    },
+    {
+      "path": "analysis/run_clean_qps.py",
+      "sha256_lf": "c1e638ea1c5b82ce0f17ad7f0453cbc45b84e9439b65401187129876eb0d114b"
+    },
+    {
+      "path": "analysis/run_hnsw_cur_mid_full.py",
+      "sha256_lf": "2099962d7eabe88c7da13906500a1fccb4add670c0c901193a0ff3a793900647"
+    },
+    {
+      "path": "analysis/run_hnsw_selective_prefix.py",
+      "sha256_lf": "db091907814270db1deb3819c29fb6e4e132d37edaa890a91f028b67e842372c"
+    },
+    {
+      "path": "analysis/run_hnsw_stage1.py",
+      "sha256_lf": "b832f0adf334c2e788f1d1f31ac492c6b8755fdb49330b22b887e8da6c62edb7"
+    },
+    {
+      "path": "analysis/run_jump_nn_selection.py",
+      "sha256_lf": "71e5e18414a3172a114541f7f3c255194848cf2a7bb96942f103b49569170483"
+    },
+    {
+      "path": "analysis/run_jump_policy.py",
+      "sha256_lf": "7c3d7f39e797d9520660be67be78751db9a16b6bcb74f93e6a67e1e2e1e3eaae"
+    },
+    {
+      "path": "analysis/run_jump_schedule.py",
+      "sha256_lf": "eefb6a01356f6909c157ac24d1253bd9b3cc6cb64187cff5a715e8858af319c8"
+    },
+    {
+      "path": "analysis/SERVER_SYNC_AND_RUN_1K.md",
+      "sha256_lf": "1af4c95190c88066ab40c1c30441259e1dd29a50895e07c7e57253a38e89a572"
+    },
+    {
+      "path": "analysis/summarize_hnsw_mechanism.py",
+      "sha256_lf": "127921d8757a8846dd5e757ee815f4b582062ed9ec8a381072f8f50bb247d254"
+    },
+    {
+      "path": "analysis/summarize_jump_gates.py",
+      "sha256_lf": "6e2bc1ef21d28800fd2e8da6adcb3f5d0192dc6d0f0be4c0313f330e936b247e"
+    },
+    {
+      "path": "analysis/summarize_performance_log.py",
+      "sha256_lf": "d6f74d439aeadaf484d44f6e3959c4cdfcb3e7e6da69308aab9e6e62c6386128"
+    },
+    {
+      "path": "analysis/summarize_stage1_dabs.py",
+      "sha256_lf": "b19a2b615c81049e058cfcccad4310314436152f5820d6ec1357c608a74d72b0"
+    },
+    {
+      "path": "analysis/test_bound_features.py",
+      "sha256_lf": "3df2479335f21998c7a9a1ff98310d4622803aebcea6da6cb3c0fedf182a5a49"
+    },
+    {
+      "path": "analysis/test_clean_qps.py",
+      "sha256_lf": "a2e27281e3487cf89e6195590e77b22f8d8853cfb6b42e1885143d79154dd28c"
+    },
+    {
+      "path": "analysis/test_hnsw_cur_mid_full.py",
+      "sha256_lf": "8a3c6372918d9d26d74392016a9e2d4e2041a4cab9236c87122c9bd9b33d74b8"
+    },
+    {
+      "path": "analysis/test_hnsw_selective_prefix.py",
+      "sha256_lf": "2c905f51401aa8cdd3ebf8742ea010b5809aaeee06ff86f1e2ab97fd0fef896e"
+    },
+    {
+      "path": "analysis/test_hnsw_stage1.py",
+      "sha256_lf": "814dda642b171dc1a4c311cf5d578305565f6fe538a8926d38f90d0b4966f328"
+    },
+    {
+      "path": "analysis/test_jump_nn_selection.py",
+      "sha256_lf": "875c006141705e3cf22b9ad197300bb0b1126d2e98a682be383254ea50be77d1"
+    },
+    {
+      "path": "analysis/test_jump_schedule_workflow.py",
+      "sha256_lf": "16af5f1995c26281153c2e6ec4da86f396247809c14ec2d1789bd071de4c2f56"
+    },
+    {
+      "path": "analysis/test_jump_trigger_groups.py",
+      "sha256_lf": "8a020dba12a916ef1e98c0dbc1e7a855b318d71619f514adffc3bc0b37c09ce5"
+    },
+    {
+      "path": "analysis/test_verify_base_index.py",
+      "sha256_lf": "f8dc80ebea2c465717dc05a1136a314b6b9195f64088003f61a9762faee609a2"
+    },
+    {
+      "path": "analysis/train_jump_policy.py",
+      "sha256_lf": "8caa2de4ecfd4cc44c35e09dcc5614c6f9eb698baeef0845cd6a063ae630da28"
+    },
+    {
+      "path": "analysis/verify_base_index.py",
+      "sha256_lf": "2487afbec92b88153c2ad5f5f7e4c0d8e8265e14e74c791e758903a4735989f6"
+    },
+    {
+      "path": "analysis/write_complete_experiment_report.py",
+      "sha256_lf": "468df31122706d86cd0c48561248a5448ccc1dc7e5fda68c8aa8697f01ac0235"
+    },
+    {
+      "path": "analysis/write_feature_interpretations.py",
+      "sha256_lf": "0e980907cd9f88de5c8d2e6b1f065bd09522766b36e14f602c53b0cd759eed87"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256_lf": "a4581a89968c991c73dd65693c6783c5d5a940e75fc027503ef8a4df7842a15f"
+    },
+    {
+      "path": "ngfixlib/graph/bound_search_snapshot.h",
+      "sha256_lf": "a30881cac4217178ec5ffc5a96611e62599559519d10be5b6b68bb8df5b86e4b"
+    },
+    {
+      "path": "ngfixlib/graph/bound_twohop_gate.h",
+      "sha256_lf": "49d0eec10b33101fa0837611fa2d4a6bd1e257359237ee1ec54de315d022a1ac"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix.h",
+      "sha256_lf": "6133211949519dc25499aa3a40639e4706eaeee3f4ed2c3d0dd10aedf812b448"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix_clean32_impl.h",
+      "sha256_lf": "5e60e508c0d5ac30fbaad140679cee35c37d30ce10ffc2dd3ab5931b5cf56ace"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix_cur_mid_full_impl.h",
+      "sha256_lf": "8e13006c583db353f0b9c1deb29a1f4cf6724969bbebb845daf6a68c6d42a455"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix_rabitq.h",
+      "sha256_lf": "7c63828504a7c2048b04cf9915f64c9be54a70e864e248da1a8349aa1da10e46"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix_selective_prefix_impl.h",
+      "sha256_lf": "8be4ef7f7bab8f94fc7cd39436579b0b093561dd3b87609a02adff401acda8ff"
+    },
+    {
+      "path": "ngfixlib/graph/hnsw_ngfix_unbounded_clean_impl.h",
+      "sha256_lf": "0c93aff746d6f682e0b4fcb88fb910e1082137986480ed56440e4f512c0d4e76"
+    },
+    {
+      "path": "ngfixlib/graph/jump_nn_selection.h",
+      "sha256_lf": "e262a72a634910fae8cb33bb3de76b7ee7bcfb3898745fe5ff42272bb25ce0b1"
+    },
+    {
+      "path": "ngfixlib/graph/jump_policy.h",
+      "sha256_lf": "cbdefa999423b3028a2df0839c11859795c6ec1dde3cc2bf7c8a509e105155eb"
+    },
+    {
+      "path": "ngfixlib/graph/node.h",
+      "sha256_lf": "a10b4f7c1719642f883f93d319f57d9726c8771d948a0482e777029bb616feb3"
+    },
+    {
+      "path": "ngfixlib/metric/ip.h",
+      "sha256_lf": "da307d4d2a2f58eddd41716e09e54c0a0bc785c824e46d8b060de246fb65425c"
+    },
+    {
+      "path": "ngfixlib/metric/l2.h",
+      "sha256_lf": "5eef5aaf0bf2b3e2ddca729224c8ab6fd703e73f2a18f7e81280e1623a275ea4"
+    },
+    {
+      "path": "ngfixlib/metric/rabitq.h",
+      "sha256_lf": "4b52e5b773924f261dd90250063755cdb13896c8fb2709cce2e113f887c32ea4"
+    },
+    {
+      "path": "ngfixlib/metric/space.h",
+      "sha256_lf": "34b044c05f6b5bc86f8a966393d7f95d929745300b9a65eadc444cdeafa35170"
+    },
+    {
+      "path": "ngfixlib/utils/search_list.h",
+      "sha256_lf": "ca21fd89f5ff0d69980bf5a959faa3a7934a8ac248353ff13f3b0c6897cd54c3"
+    },
+    {
+      "path": "ngfixlib/utils/visited_list.h",
+      "sha256_lf": "de833af04399db6688046e813785a7402ec72fcc895fb2ac1cb0004a1d88330c"
+    },
+    {
+      "path": "rabitqlib/defines.hpp",
+      "sha256_lf": "4240640661b89a3fe756a5e031e24d95241613fcb61c1bb22f6479a2461860d4"
+    },
+    {
+      "path": "rabitqlib/fastscan/fastscan.hpp",
+      "sha256_lf": "78f5b351e853bc78ab19f226fd958ee0db252055efdc809f000c939982ed7f21"
+    },
+    {
+      "path": "rabitqlib/fastscan/highacc_fastscan.hpp",
+      "sha256_lf": "30e3889fbf212300a2f0f02f3208ded2418142421a977eaf2f251a50c1ec6d34"
+    },
+    {
+      "path": "rabitqlib/index/estimator.hpp",
+      "sha256_lf": "97240dccdf649d090280347cd017c33b0737e5399f412ebf42ac97d483087710"
+    },
+    {
+      "path": "rabitqlib/index/hnsw/hnsw.hpp",
+      "sha256_lf": "362df1e36f19ff60c8fbd91938cba61fc0c271e72e93a950303771034439f4b0"
+    },
+    {
+      "path": "rabitqlib/index/ivf/cluster.hpp",
+      "sha256_lf": "5f9fd2004527f22b7bad697ffaa57f8a767cf611ab574463bea9b21abf110d0e"
+    },
+    {
+      "path": "rabitqlib/index/ivf/initializer.hpp",
+      "sha256_lf": "9a86b80e2336d2e49f6758ba1d633c3bc5e6310e1be84cc7c4960d52ab00743d"
+    },
+    {
+      "path": "rabitqlib/index/ivf/ivf.hpp",
+      "sha256_lf": "fed682acdd634f5563b479b0942a733f9cb130687bf8c0f79612b42a0cc6696a"
+    },
+    {
+      "path": "rabitqlib/index/lut.hpp",
+      "sha256_lf": "623f9f0ef1304011aaa03d8c2132aa8acea0ba513f55f5e5d7db6b24d6060c52"
+    },
+    {
+      "path": "rabitqlib/index/query.hpp",
+      "sha256_lf": "400bdd3671731dbdfdd892240cd1afc1fb5f9fc2c3592a01a4229bb00f397532"
+    },
+    {
+      "path": "rabitqlib/index/symqg/qg.hpp",
+      "sha256_lf": "0bfce8ca3f7a6759d666fd599c5a9e4006469c82698c511ddd6d594d7620d15e"
+    },
+    {
+      "path": "rabitqlib/index/symqg/qg_builder.hpp",
+      "sha256_lf": "497003e25aa9b7980715775dbb161dfb20e0ea050eb5b68ddebb6fd1ac656363"
+    },
+    {
+      "path": "rabitqlib/LICENSE",
+      "sha256_lf": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "rabitqlib/quantization/data_layout.hpp",
+      "sha256_lf": "cdba9034194e8018d39104511dc76bb8218047dc00f5c38459251d2bb3e20e3a"
+    },
+    {
+      "path": "rabitqlib/quantization/pack_excode.hpp",
+      "sha256_lf": "55ffeac3b4976811a5460bbc7ce49f59a4ca157e332e999fec5e62c26bd57654"
+    },
+    {
+      "path": "rabitqlib/quantization/rabitq.hpp",
+      "sha256_lf": "3ab5d16925300acc04db1d040d347f6ea2c67afc729884545bc33004198dce11"
+    },
+    {
+      "path": "rabitqlib/quantization/rabitq_impl.hpp",
+      "sha256_lf": "d736139aaf09c281345cbe89f3d9484ed1b761a375f474ec8c3deb9e21c54037"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Cholesky",
+      "sha256_lf": "48c72c2d7b98fdb451675d2ee03850ecfdc97ea41bce55ed754b03da4ab09bd0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/CholmodSupport",
+      "sha256_lf": "26f0d1bd0677785394f1f4eb2cddf763423f703c0941b3e58373e955b0130327"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Core",
+      "sha256_lf": "b8ae5f77a30d48bcaf622a56f7047baa8b2fb790f5db7361aa1d57f424fa3c1e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Dense",
+      "sha256_lf": "5325c9d4d693e504ee012c5275ad4b10b135a701cbd87c14466d2ea21ea22ee5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Eigen",
+      "sha256_lf": "b0473b5d7c0cd9311d4a90548162e8cf160904476871f7fb749e9624e9b3dfd1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Eigenvalues",
+      "sha256_lf": "f1958a9acf3cd3e1f518d871d7dc602e8101b33ce35008b8ee8e1720845bda07"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Geometry",
+      "sha256_lf": "f38a145ee513d1fa75bfcfc794fbc47c9de65a3af5d9fb719e057ac63302c2f8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Householder",
+      "sha256_lf": "1a18ea2659db15ce93de0f5aff135a536af9701da9af4f026710e56def23a559"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/IterativeLinearSolvers",
+      "sha256_lf": "84ffa38ac1ef3be005bff500b78b529c1e164fc50637836ff8648fea127b74f7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Jacobi",
+      "sha256_lf": "af3020c91b8e92d0734c113fb1511d96a0d6b058128911d898e0177628a358c8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/KLUSupport",
+      "sha256_lf": "bc4631eba44254d2d102287f01c02b0ca793291c976b509b7c3528157fed2f64"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/LICENSE",
+      "sha256_lf": "ebb2b5b2ac6e92a7b3bc6f8ecd8e83e4c896a64bd3e89353bf8e107314d593c2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/LU",
+      "sha256_lf": "d00fab176922cdd4a231ff33ead58fc2db21a9d93034bcf7ba0c2a351a654ba4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/MetisSupport",
+      "sha256_lf": "e46d51d3065962408a403480f2c9cad4e7d61fb509c1e4a695274751274969a2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/OrderingMethods",
+      "sha256_lf": "25fac81cac3358017e4dcb20f93afd0f9ce65d6041376f2ff5d96fd9d084bd72"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/PardisoSupport",
+      "sha256_lf": "50ec5003df399fabf518620e220f71c717ff3a03a7218b8650a974dc3ad06b15"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/PaStiXSupport",
+      "sha256_lf": "f423b95716b804f9521234dfbc58ad1a2fad9a16f84bcf16df0bb88aeecc8543"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/QR",
+      "sha256_lf": "e77ae1010e9df1dcb0e5a8756048c3880ceb023711e8d1b569e01b039f130820"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/QtAlignedMalloc",
+      "sha256_lf": "c466291c6e7d230e8b76b725cdad1ed82c249bf01f5ec3bcb6f3f6501ed0ff97"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/Sparse",
+      "sha256_lf": "be351b6ee652a7a20e3953d0eae216d4d01c2c26ba7b6a464bf908db3449907b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SparseCholesky",
+      "sha256_lf": "6e364a72115dea57061e136a6ec804cf21c5d3cd79aa4439fd2b352f589dea9b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SparseCore",
+      "sha256_lf": "2323c1e3179dfc6abf348161b78c1bf5ecd0caa8f452c70caca9a1cdfdd6a6ae"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SparseLU",
+      "sha256_lf": "5e746ec763054931f16ede5c588aab2b44d755febdaf299f5ee4cca0346a85b6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SparseQR",
+      "sha256_lf": "7433458ae0082f26aac3b544f08e5718a5d122c479a9314252b411ccf1d9b8fb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SPQRSupport",
+      "sha256_lf": "4fa2d73b998c0794682d63dffbfff795bea41a7d18665840b1c357e66ff1c89d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Cholesky/LDLT.h",
+      "sha256_lf": "cc6362ddcddea1403ea9ec1cbea2ca6eaf1c5874630f1b13084f51c78f339d78"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Cholesky/LLT.h",
+      "sha256_lf": "362fe6b080c9b67d11106f821f926fa84ed24b2120fbdba2a09efb0869eef1ec"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Cholesky/LLT_LAPACKE.h",
+      "sha256_lf": "1efc3720834ec96ba0df4a0622aa20c3a80ae48d90d60cfaad5e0bf9c1cfa04b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/CholmodSupport/CholmodSupport.h",
+      "sha256_lf": "fd788dbcb353cd1f0eca9fa6ff65760b3358fbb445ee7defef1fa7c9834a5e79"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/Complex.h",
+      "sha256_lf": "0944a8651cca7c25f17907c42e521be72f3bf7f9ec92e60f3e901adf800351e1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/MathFunctions.h",
+      "sha256_lf": "1a4c8e0b6d0f2cacdb516d922613f3a92bc77f8d637d98dca2668066ce0dd74b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/MatrixProduct.h",
+      "sha256_lf": "a87e086b0361e64082e5ed84798bdb87c97505f625c9230ee2b0c0a96b4eaac6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h",
+      "sha256_lf": "04e7139eff7b385865b97f12f87f9ce34810128ba99bd06a5cf3aafcfa09fb4e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h",
+      "sha256_lf": "3112535947d405562c0ecd7cf47d682017a86306caf746a7671275c3f66a93d1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AltiVec/PacketMath.h",
+      "sha256_lf": "a0f61d6868ddd83b777f56f76006f35395bbddc808cfbfda0e1cd0e7e21e4a2f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX/Complex.h",
+      "sha256_lf": "4d178124b64acb5f5915a96f29e97f2ebe3dc44208085199bd092c37c8416f10"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX/MathFunctions.h",
+      "sha256_lf": "738a0df89554cfda21a52c3ba46e47bdff9e35199c788dd8dd4d9ba3c1598105"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX/PacketMath.h",
+      "sha256_lf": "2344a8cc87e4c35891534a7ac7dde73e012935e0cd65699b18ee77bbe697fe40"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX/TypeCasting.h",
+      "sha256_lf": "2cabb8f3dea66b916017058b63e542d218a1ed8f59ec396ff21ae3574b59726c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX512/Complex.h",
+      "sha256_lf": "ba0af7273126239fb7b47251be282a7c0b9eea6796dfb0f7c411be5f3b0923c4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX512/MathFunctions.h",
+      "sha256_lf": "d395757ee69c05b7ff210129bd7f54207bf8ab644909a282f5184c8c356e3247"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX512/PacketMath.h",
+      "sha256_lf": "394147fddc34b07d8a7a28bc80a5edd1fa5ef3f65101b5356ce168d07f71c31f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/AVX512/TypeCasting.h",
+      "sha256_lf": "7520e93ada4015cb38bcb41359235a8bae936d2539dff86cd4afa76831751a3b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/CUDA/Complex.h",
+      "sha256_lf": "a1fef89efd39c77dd8d3d247034e829e93069e128cfbec9aef028e8b95c786ed"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/BFloat16.h",
+      "sha256_lf": "1c3faf2e812a463d0be1c7dab3368ede6afe84d34f042c007bc5dad375e96bd9"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/ConjHelper.h",
+      "sha256_lf": "fad5548a5fd3f3e4bcb16fe28549ee73c1ede5f9e29f6c9022bd4d8ad3eaa520"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h",
+      "sha256_lf": "e3ef23672902a6a0fef39c9b6c5952ba9ed69e6a0eb32f0ecc13004fc660052d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h",
+      "sha256_lf": "6bd2e4d5286176d0b823708e1a699cf4694cb74ebf54f2ddb678270db5c46717"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/Half.h",
+      "sha256_lf": "bcdf4205c17eddcacbc175c1a5d188db2b36c9e5029b3829076d05dfda406f4d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/Settings.h",
+      "sha256_lf": "41b87a95edc400e7545f7273c59742abc95defae6ca7cd85f962d51a7a8fb790"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/Default/TypeCasting.h",
+      "sha256_lf": "4efe3b7a0099da41b42040000a9c4b92bd48efb35b9505c453b5f3d304fb4f75"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/GPU/MathFunctions.h",
+      "sha256_lf": "58d0579333d6cd9c7e6bd5582abfeedc0da64bcd1e011c2263c2dd7e54664f57"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/GPU/PacketMath.h",
+      "sha256_lf": "d8a2a3529c220e0cdbc4c5e847007b160e41b3df0db069fd456aa0bddd0ba03d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/GPU/TypeCasting.h",
+      "sha256_lf": "1d1d4e3872dbf4d9ab22c5b67644418265a0a641e26d6c340d4809caa3bc2e98"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/HIP/hcc/math_constants.h",
+      "sha256_lf": "4d86a4154ef20638d72ab2f585ec61f6c0881908d986a2b4ffb44efa97f97246"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/MSA/Complex.h",
+      "sha256_lf": "983d7be618a33cb2ae3d6320246f139f5739bb25337512cc252cde6364879164"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/MSA/MathFunctions.h",
+      "sha256_lf": "f160e1405034b3fbbd2cd64e87a27c0d0faf90072139b937bf6eb71f36983f28"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/MSA/PacketMath.h",
+      "sha256_lf": "3dac6c302dca476b5fbdde9e5871b7faf48473fd74d2602c07e7483a2cb864ce"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/NEON/Complex.h",
+      "sha256_lf": "cb2278d5839544bac8ab0b38f4375b8badffb1c746a8d6af99766fe764afedf6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h",
+      "sha256_lf": "54d3101e149f291848d1170a2616a5388f2c91b878a74f2d3163da82207ea7a7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/NEON/MathFunctions.h",
+      "sha256_lf": "8cd8f6d69e1b8c60eaa88c0f951eab619b8ece903393d7f90d726aa487da816e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/NEON/PacketMath.h",
+      "sha256_lf": "3e13180a0dd01b9a69bd17f17aa869c38c4515df1cc83043b88f43d9a131b75f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/NEON/TypeCasting.h",
+      "sha256_lf": "736c98b778932aba5914b418fd810a13557a2eb786b5d11e736828a9f3ee7081"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SSE/Complex.h",
+      "sha256_lf": "87a6f05e1122f886550a985ccb79150be09999352d7cbce86bbeed648a2157a9"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SSE/MathFunctions.h",
+      "sha256_lf": "7007304a115b9f42b483e4e2ca836a0ec578d68a89a3f90c048ddebf074673e5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SSE/PacketMath.h",
+      "sha256_lf": "a5e086e96bf7876bd9da0c43117f482435d04cdcbc4cf9c104c1724429804130"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SSE/TypeCasting.h",
+      "sha256_lf": "52ad99dd125e1b5b7b6480a8a5219344e7b30def71c08fe74d14304856842e60"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SVE/MathFunctions.h",
+      "sha256_lf": "02b207493b1cbbbefa644a22b61d4cbd5d7a07114086f57788b61d0b8cd81e32"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SVE/PacketMath.h",
+      "sha256_lf": "1319cfeb0c5e4dffa6b90125d241aaa7d685ac6e9907558445a124449c57eaff"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SVE/TypeCasting.h",
+      "sha256_lf": "7aecdde0b05a3dc66fbaa138c3658c885cb2b1049813f368f4c76a19f3bbbe34"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SYCL/InteropHeaders.h",
+      "sha256_lf": "d86e4da28f7f77f32f2686deccdf5ec57d737af7d6fe5a3a95feb76358f53934"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SYCL/MathFunctions.h",
+      "sha256_lf": "4b3ba6d7dfe783fa17f93b7fa3290e1ee107b14905f3c815e4e137e9a32ea43f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SYCL/PacketMath.h",
+      "sha256_lf": "75992417c92ed3317ffe971893214d09e904860df1062f4d0cf4e65038b0a4b5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h",
+      "sha256_lf": "2083acd84d60e7f88a69eb85f9a0bcca0270ead6fc2a70cbce494c864c064359"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/SYCL/TypeCasting.h",
+      "sha256_lf": "07fa00a20f141e40e7da538ef8385546801a0164f65ade6c04758020a0bdffba"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/ZVector/Complex.h",
+      "sha256_lf": "e64803d7d661abd130c48ecf864441c0b9c0d5c5c3e2e8a8508a3b87f0db2c5f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/ZVector/MathFunctions.h",
+      "sha256_lf": "00be6ff296decb639ebb277be64555983e8edaaf7cc1a4a790a627b33375f44b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/arch/ZVector/PacketMath.h",
+      "sha256_lf": "174d47bf730813229a9ddfd5c52e24bd51cc832042e18a1a7a99e984f2a22176"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ArithmeticSequence.h",
+      "sha256_lf": "f2f81c23a86e2fbac5847d8348f7dd10f0fe39812834d34b54446e1bca44fbaf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Array.h",
+      "sha256_lf": "dfd7ca3f27664e4e391a251de4da52b457507fc942516a21ab3e8b9fa4fe8da4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ArrayBase.h",
+      "sha256_lf": "87a5c07a596b5225d49b0da2585d81d146f7f23b7a0da7a20c51eb5b746afc5e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ArrayWrapper.h",
+      "sha256_lf": "8bd0a78e64c08c3cbde4af3536ffe6e062a12ce9c7321c43a1469704a937cce4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Assign.h",
+      "sha256_lf": "74a400998f745e1897a3f29de0c1f10e6ad2e97269f72945abb259e6617f3b62"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Assign_MKL.h",
+      "sha256_lf": "74f63085b8537072933ec173b91b4370bed151778c6435a272a941b678f8b490"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/AssignEvaluator.h",
+      "sha256_lf": "1395011c35047d223939e6acf3d096e83aec761286e9a109674a5b75e06d65a3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/BandMatrix.h",
+      "sha256_lf": "66eb0ca50b93f4dcdc083aa21f431dd9052c319911356d9025576f0cd9c6c893"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Block.h",
+      "sha256_lf": "1092867fec68004388b0ba38d37ad603cc7cb5d034dc28b6fe3a82e92ad888ad"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/BooleanRedux.h",
+      "sha256_lf": "51dbe1e82d3639ba7d30b794e0a9982cf8b3bf989955688970d4bcd723c70aa5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CommaInitializer.h",
+      "sha256_lf": "a8027642762277db0114a8f4ef40903035484121d5b4edf9a50d5c10e11a1b20"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ConditionEstimator.h",
+      "sha256_lf": "b9276dfb980b45f22ede4e08eee447f5e00847400e66f267967692233e424c27"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CoreEvaluators.h",
+      "sha256_lf": "e89d28c6eb156cb659f58a86197fde240ac4c8611a3dd2911e41a2a70d027a33"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CoreIterators.h",
+      "sha256_lf": "30bc5387d90ca841e6ec85686d2125318a19d4fdaa05a87fae6ffab0848f749a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CwiseBinaryOp.h",
+      "sha256_lf": "0316cc07e8eb45487ae4f2432791168e1c13407120014ebb3f41613ffc6e302c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CwiseNullaryOp.h",
+      "sha256_lf": "70f5b90290fd0ddc75d0b361df6e2eff4fbbbd997f5b8932140ac581802024df"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CwiseTernaryOp.h",
+      "sha256_lf": "97d9e03c73e1a101352d8b00ee191013b6b6acf00e90c887dd54bea4551de7be"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CwiseUnaryOp.h",
+      "sha256_lf": "a6d4fe54959a3aad044a15f126688b445ba317c8cd8f60c3a4e18632e3015c90"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/CwiseUnaryView.h",
+      "sha256_lf": "e59aa61f61a67532d4a6ba173844703c7e98e28d7b8c7e9cee0aa9d30d6b9675"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/DenseBase.h",
+      "sha256_lf": "868ea8559aa11e574ce734a14ea56f5ce5032746b2d73f4c8c7930f89c598227"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/DenseCoeffsBase.h",
+      "sha256_lf": "b212b3f08925bc43f7803709976f08cf4a83dadd545d558ba91599e92a009659"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/DenseStorage.h",
+      "sha256_lf": "235e92f381291ff75dde3f5bd838dcf7e4c6c80ba83940550e26f7ee4b7c0c88"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Diagonal.h",
+      "sha256_lf": "0e8854fc839b941abf3b09652b5fec4fa5a7cd3a44acfcb5274a7773b69b2fff"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/DiagonalMatrix.h",
+      "sha256_lf": "2a0d43560b3cceafa37ad26cc7b44a951545e56a87d17e78b896c6d063c64718"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/DiagonalProduct.h",
+      "sha256_lf": "ffa71f347a5914c9e9341ea82bb42bf7b6f7b8d0454bc17bc5629addb82138cb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Dot.h",
+      "sha256_lf": "4959d72a6f76f94171e56245e7332d555a7751d29dcbe04b3aaea2c8418e0ef5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/EigenBase.h",
+      "sha256_lf": "f6743198aace0229364aef3842d7a4caec4c648268112d5dc88750d139f0261a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ForceAlignedAccess.h",
+      "sha256_lf": "839ba4e8d4998ef37384cdb8fe66e4aba037aefa824dac63b102f016b3670175"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/AssignmentFunctors.h",
+      "sha256_lf": "d8f1b1224441face5efe4271d7354683ec16b5cbe8ec89e7c728c13ff85bf160"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/BinaryFunctors.h",
+      "sha256_lf": "0b07cd6d40cbf96561824eb80aae5af719dcfe1c4d349b011100acdb57821997"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/NullaryFunctors.h",
+      "sha256_lf": "190a630e8482bc0b94383c67b9b5d7a41f3c26cb10894d54597cfde3d73ba70b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/StlFunctors.h",
+      "sha256_lf": "71823e6fcbe89847bb7caef19e837b1eed1c32442cdf8d104103888c4ffe4bb0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/TernaryFunctors.h",
+      "sha256_lf": "0fc3c1aa2a5ad2f1ca9cdbcf37a633712cc0452b107ed63f6a4cf10d67111168"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/functors/UnaryFunctors.h",
+      "sha256_lf": "905b211c94fccc6047ae262673c644ab829c8275e98b6f4b8978c73cb349462a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Fuzzy.h",
+      "sha256_lf": "4da4a3ce3d7a85b30d35977658415e48a4c1051ed6ba1dd4c61cbc8d350027d3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/GeneralProduct.h",
+      "sha256_lf": "bb7a50eea61bf87cebb8c5ff2553e3641e1e77d62f561838e1265bf42ac883a0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/GenericPacketMath.h",
+      "sha256_lf": "15ab400433df502dc3961993455b563c55d5fa47c5a93204d12ad2a79730afdd"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/GlobalFunctions.h",
+      "sha256_lf": "3531619ec23b938dff23039a3f0dd892be533f63d681c7d6596659dbb0ae31a2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/IndexedView.h",
+      "sha256_lf": "5fa91088fba62f34cf0ab4e6cbbaba88a36b7c4b195de6d2f67c96e293f32fec"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Inverse.h",
+      "sha256_lf": "5eef2f26e105349881eb1408cc2eb674b264c924d45ba3f6bfcebbcadfe6b10c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/IO.h",
+      "sha256_lf": "89a4eb492f4a4a0a9e21eff6666383152d0f45ef82d4a1879e61277dafb4ad4f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Map.h",
+      "sha256_lf": "37d3c3611a846089cb30a0d78dddc45d322985bb63fa4df5680f6f33c016a07b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/MapBase.h",
+      "sha256_lf": "eeecf78d69227844bb2914dc936d54db6acd9fa8ef8d0e29a9272b84938de1a0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/MathFunctions.h",
+      "sha256_lf": "b3c6cd173d4ac879e568ac5708042dd0bb160805c6ba9c55da05c8134656f758"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/MathFunctionsImpl.h",
+      "sha256_lf": "96f735785742399ffc6109a6d8a41bf2392789b5a713c9cbfb2f089767491247"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Matrix.h",
+      "sha256_lf": "fd84dfc1c70b042952d299f39f05694f82ca1f17ca013eb336757a3cf71e6d11"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/MatrixBase.h",
+      "sha256_lf": "3fca778dd610923f7c089fe6f63e600005f14fedc156851591fca999a28e592b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/NestByValue.h",
+      "sha256_lf": "5e93bda8542a8ebfb321dc9199b110a53ae2fb8f2c20e10b6f24e4379b0a27cb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/NoAlias.h",
+      "sha256_lf": "229d6ce4cb8a1921cacd634f6fe64e698c54077302487c62202b845a7446618d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/NumTraits.h",
+      "sha256_lf": "6039578b4c17f244eb6e0b18f29b8089cb4affbd4431365e4fe8b248259199f1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/PartialReduxEvaluator.h",
+      "sha256_lf": "863ec1c5b7dedcb8cebda4cb9c38b6fc77dc75d2290dbff2c39a7db98ce33a38"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/PermutationMatrix.h",
+      "sha256_lf": "c4ea371dc8fd72bc610d97b9e8e241d9765c08d8d6a93e66d851fc095cd9ce60"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/PlainObjectBase.h",
+      "sha256_lf": "faa54cb79fd74db5fd5fb3c6f60fc252398ebc3529e9607cfde2232244162335"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Product.h",
+      "sha256_lf": "47958609570712d8c066c8e7529fce3346f0cc794accd390f753d9703d4842cf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ProductEvaluators.h",
+      "sha256_lf": "d8863af78cf309c898d34f0e8b38bb4c1b370b5622a48064211f5b3b0ad91eb0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralBlockPanelKernel.h",
+      "sha256_lf": "b1824739dc829bdd5c87d4e2035794230f5ea8e3007977e378399e19562b98f3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixMatrix.h",
+      "sha256_lf": "df7aa1bd01e45c47e71ea38ce579d81f5b79aa55ded40f21685802946564ec20"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h",
+      "sha256_lf": "79cd720f0506bcadc600ea2de3405a4457536e4a35beb4078161f75f76134f67"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h",
+      "sha256_lf": "b415ab39c5c03ea6f2f3f749ba623424b9f1e0f7ea1e7df71e160f2ee391796e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h",
+      "sha256_lf": "973de070289ba262340b5d463fd59625f2f125691fa3322e69e28f58da7c2a84"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixVector.h",
+      "sha256_lf": "ea08550845627bf3d7c0ad30ed7061d5eb9590b1fb548fd3d8fde906707b11f3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h",
+      "sha256_lf": "999b5819ab540b4f9bba07cb57763cd433c9cbc1fea66e05da12aa41064e7693"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/Parallelizer.h",
+      "sha256_lf": "2c54b4e297c0cb187ee47aec319eead343a6fcfdb3f414d42758bfd68ff4938d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointMatrixMatrix.h",
+      "sha256_lf": "e204012c3add3c045207b5e4e7eeea5f83bf3da9d0c6f7e287acea1c58a4b22d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h",
+      "sha256_lf": "74ed10cd34a5118d0300b7c91cd08bbfe56ac9659d18a383eb8d2aaf3a070cec"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointMatrixVector.h",
+      "sha256_lf": "5fd54cb6290c9437875265e5b673797f4cdb6e45c791fe0247b41e098e331055"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h",
+      "sha256_lf": "10aad74414d67ae92cd458c5267f84c441dd2c3de826cd4f9333aa042cc76b1c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointProduct.h",
+      "sha256_lf": "0e47b0162e6cfd1d8dc314d7cbc105529936b03a802f546c1226d11b6a38dbe6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/SelfadjointRank2Update.h",
+      "sha256_lf": "1a3064b1b2d3521f1d4b022ba0103314065dde9366686ce0c2af72fc07b38406"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularMatrixMatrix.h",
+      "sha256_lf": "8a726cee8a7523991eaf9d5a4cef2b691c318394d64f4b2f55e13588a599ed16"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h",
+      "sha256_lf": "b09bbec2fc888d442697d26d62571f1a991b4a12f347748930f3592d537c39da"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularMatrixVector.h",
+      "sha256_lf": "a45c7b2e4fa32c52372f9d635c6599a1844f9053edd9108774e64972b0bdc8fe"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h",
+      "sha256_lf": "4ac4ff35409d8875e57af5cec80ae7c537b64034e2720d401fbeba4ec7268749"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularSolverMatrix.h",
+      "sha256_lf": "7bbe79b4abbec7879feb1c84c2bf92b8e5039baa7a7bcfeee9decb3abf544550"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h",
+      "sha256_lf": "d9c296e7a71f502a2804bbf8a704b4f5e866b5978d6f941685c3548ba5e6a842"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/products/TriangularSolverVector.h",
+      "sha256_lf": "5febd767c379a570c5f918b07890f75c87bf9ae4d6b0f565456f275b308d10be"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Random.h",
+      "sha256_lf": "fc95b14bef2692647c0891b25906cac988e9519e5f719db0fd9e64e0faf0a6c2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Redux.h",
+      "sha256_lf": "dcdb68827c7f9063af745c9a0e1e85cf53c0a69b67d3d4880134a2ef8ed1f3f6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Ref.h",
+      "sha256_lf": "f4a08654c367bde51b9589279956c23a1b747a78a5b94eb4c7e43f16ae262ebc"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Replicate.h",
+      "sha256_lf": "6f77a1da5cd4bcebe1cbb90d52fd7fc23d19a46e8b1b8f2a808ed0ecbf9bdbee"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Reshaped.h",
+      "sha256_lf": "5101b12821837460013e70adb2d542f5e623cdd6541d3604af628d2a78de7e14"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/ReturnByValue.h",
+      "sha256_lf": "8a385498f0ba0c67466fe151af42e5537bd3c5d75b89d40b73bc103c77309665"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Reverse.h",
+      "sha256_lf": "9660864ae4cfc85dec40d82e79a598b71e5c58f53034bdd30c74093c5ab9a154"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Select.h",
+      "sha256_lf": "0b9bee78d59350121108778bbad203a463d81c71bfb5cd732b859c02605a1eb5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/SelfAdjointView.h",
+      "sha256_lf": "6b05fc31cae6f946db7fcf4439efa13eb21cd9b1903ae7910cc74a611b95f68f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/SelfCwiseBinaryOp.h",
+      "sha256_lf": "4d0f02140378c8fd28bb05d2f13dc50dd867bdbc2dddce223fe37b82dbf17ab5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Solve.h",
+      "sha256_lf": "d1411e4c37b3443d3422dffba6225a70ae186b0ed90a3f09bbec14727edf86f2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/SolverBase.h",
+      "sha256_lf": "339ee50a16430116e2be23b29441ec7fb90b73ff2bf6be8a39e1c74fb3e171ae"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/SolveTriangular.h",
+      "sha256_lf": "f29b27b474efe5692bbbf1f1863f0ddb4ccf039e3eda02796f54c33889dc86a1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/StableNorm.h",
+      "sha256_lf": "488e4d101a3d0013b191b80c18fc1c42e988733b6109b704bfa40ccf77d3d187"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/StlIterators.h",
+      "sha256_lf": "cae751132eb5be81f1974936f9a9041935aa8a91d7d0065b48301e4cf57b10c4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Stride.h",
+      "sha256_lf": "5ef8631f1222d499e9c273266ecbb8077891268b20dd11c7bf57e83b3fb7c37d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Swap.h",
+      "sha256_lf": "72add24f5533477f1aa3de05213be772eeea9a13d67db82d02f74fcce501ea40"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Transpose.h",
+      "sha256_lf": "aa104b2fdf7371831d4fcee2383deca5300c49805b99a3c883e13f40b1225750"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Transpositions.h",
+      "sha256_lf": "390f37b9c86bed1f1708c5f7786b4609665820370a437a222da320a30c7b9867"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/TriangularMatrix.h",
+      "sha256_lf": "cc4c2090bbf9ed02b0a36129809fb2c39a32d2bd2efea05d0debb1eafe848111"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/BlasUtil.h",
+      "sha256_lf": "478865886bd886a3b0f6e221ff9b811be3742274d1fa260c7fbd525a2bc55716"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/ConfigureVectorization.h",
+      "sha256_lf": "3eec3fdfce850c87aca7bac45ce2bf1898804a845e29a9548c3e98e4c82ad35a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/Constants.h",
+      "sha256_lf": "b6d536a1e9b8cc1c685f7c6cf794ebe70a672099370fe57e475f6ca1739236a0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/DisableStupidWarnings.h",
+      "sha256_lf": "62dab2d7be4090aaa05e3d2c6581b249b7365726bb7506cdc910552fc8386c55"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/ForwardDeclarations.h",
+      "sha256_lf": "661744e9dc5ad6fbd6325a068f188d56a7d4c53a2e577bdf02d2032e83f93541"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/IndexedViewHelper.h",
+      "sha256_lf": "e88f96baa8297511a439002d23b0ae30045e9c5438a4b9b3680e4182d6e2b6d5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/IntegralConstant.h",
+      "sha256_lf": "32c1a018fdf7bd1f36e310773032566f351aff3b5a00d5f239e24d0c2809ee69"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/Macros.h",
+      "sha256_lf": "8d73259b4ba482e6dbd11b31d8887fd350dfb0836700d32793446bba6ab1ae7a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/Memory.h",
+      "sha256_lf": "e25565aa6ae3e612c26b92cfe731a5df90d7edfa667be5b987c2801c70b2c95c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/Meta.h",
+      "sha256_lf": "4ee6855c8f37669b8c86483342c56f9ad06f2dfc69abfe4691298a8d2a944202"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/MKL_support.h",
+      "sha256_lf": "487f0c220d40b8418876b5c7d9032d3597374cdff790d4022e8f4eea932cf620"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/NonMPL2.h",
+      "sha256_lf": "45e90a0556a27623a911bf6c9bc81cb3dfcbc9ec82dce28e4af7f8255ea5dad7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/ReenableStupidWarnings.h",
+      "sha256_lf": "e0200d2f76f2944831e0c12973faa72fabb0445bbafd65c7ae516ab8cd67ade5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/ReshapedHelper.h",
+      "sha256_lf": "22248d610522a08d515c72596f8e69a5bd0f6930545a9846c575da55119b3512"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/StaticAssert.h",
+      "sha256_lf": "16ecc74d0318e07c847799e6757a8b4ddd7769d6f07077a180a7def3eeb6d1bd"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/SymbolicIndex.h",
+      "sha256_lf": "db1f06b723a94199dc28c614e4d91d25ab51612d3c1bd705627376ff1d0c9efe"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/util/XprHelper.h",
+      "sha256_lf": "f75169c4a2ca3e51a8e6ac423ff34ad827bf73264ccbbdfa3b11ad19f8ef10de"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/VectorBlock.h",
+      "sha256_lf": "d7f545fba1479e339e3040799ec1a0008b242cbafb456100cb95e7cd64586b49"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/VectorwiseOp.h",
+      "sha256_lf": "b5a10c9e4ef1a0048e8bd17e514354b1e1647b1d700d59076c1fa34ecf04bc3d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Core/Visitor.h",
+      "sha256_lf": "d32f1b4fb0065a312bf13a2861cf3c3d2ff08d2bef4ad8b014b50061ae8802a4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/ComplexEigenSolver.h",
+      "sha256_lf": "b250df4b92be54eaf46979f8338413d887d011c1e81fe5b71dca98a85a8a6357"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/ComplexSchur.h",
+      "sha256_lf": "6712338e5d075ddd3da52d2f28ba29b192ea479211c097161844dcd0182ea79a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h",
+      "sha256_lf": "fd6553437ebd9249d16e31ae2aeed73c983cafa3cab835cc9829343e5ccefa4f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/EigenSolver.h",
+      "sha256_lf": "764e4b1848ee16fbd42450a100b8b1e965f1f92f41ba48beb2bb6010ba0b8440"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h",
+      "sha256_lf": "82385783f608b22cec0699df6e58e3b8e9fbce6b40933d257afbd1651cd74f87"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h",
+      "sha256_lf": "e3fac33dfc12461ba86cbbca58bb12d9d4750bfd4eea87d63d7f3524a5d3b084"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/HessenbergDecomposition.h",
+      "sha256_lf": "3b956b75ba5931285e0ac53f6d4b2bed51ffb09528e4687c460f83d2712de95b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h",
+      "sha256_lf": "bb128af249c17734931952429fcaadd3b27f4aa183b4d7d3ededb3e30ab525e8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/RealQZ.h",
+      "sha256_lf": "f3bd8d77d945ad3090c21b4b582c80b6765e1b59a76865a2d50eb422a556198a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/RealSchur.h",
+      "sha256_lf": "60870a96d42c0195cfadf9169cce3895602f881e040d0f31ff564a95a3ea672f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h",
+      "sha256_lf": "30aafb5459f8297d6851aa6a8b651275565d9faa451332d04af50713c043562b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h",
+      "sha256_lf": "0bdabc304df900248cc79eef7e1b9df57a6b2586b3b9d93d421344b806c26ee6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h",
+      "sha256_lf": "595ae077aa38318a867fa6543fea9fb5e6a545532f27d676958cc1fae6ef6fa4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Eigenvalues/Tridiagonalization.h",
+      "sha256_lf": "9a794635df375a50699403e22410f6a6dc7ccfec85b6a6ac1fba04ca01051047"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/AlignedBox.h",
+      "sha256_lf": "2c95fadc8549fa236d6f8aa38022badf9186d63aed12a102bb806bcf0f6d522e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/AngleAxis.h",
+      "sha256_lf": "856101e8feca9153a3503ca23e475567bbf53e87c3508405403560b871b27425"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/arch/Geometry_SIMD.h",
+      "sha256_lf": "2b4a5474d7503125279f1de2bae8ef56f99ac52dfecd3218fff5d79027779a7a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/EulerAngles.h",
+      "sha256_lf": "32f9878596c7d0d7fd633646f01f188d7bc75d0b16cf75bc1d8f9b6c25e85fa9"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Homogeneous.h",
+      "sha256_lf": "1ae6f1571132c5216266218c4df967edd997c376b2ab9e48add27947ea316fdf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Hyperplane.h",
+      "sha256_lf": "2f9aa22b1ec7f26869bdfdde5e13c2a5cb9dcff8f0e1727b9ef684b72f36aad7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/OrthoMethods.h",
+      "sha256_lf": "3d403f7f2ce47d4a06d7a4e5be2f362c2b0ed8bc7c2c044de7a09fb231956c44"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/ParametrizedLine.h",
+      "sha256_lf": "fd7066d3470cbb61af4b173f56ad0bc37098ea03d03e62eb7ae8f7f998469121"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Quaternion.h",
+      "sha256_lf": "8e281fe29f4971828e790f334653fcaaafe34a7853b0eece4224a63a1ccf1fa8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Rotation2D.h",
+      "sha256_lf": "649177f4b89e0f22d573cdb00818dcbfef3d5d49a38223fcfc51ad5b8961bce3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/RotationBase.h",
+      "sha256_lf": "122a302f2f3593ac3951e4408c7d1404360a031baa0380617ba1dd6dd64518cc"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Scaling.h",
+      "sha256_lf": "54fd4bf3253dfa48d7811a4944343f3286e6e05e9ce3b58142edaa17be6a6cec"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Transform.h",
+      "sha256_lf": "fcbc9705bef43e82d419e6aced39194400c11fc807289a74d6e8bb4662667ac3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Translation.h",
+      "sha256_lf": "3107a52aa3043cc603c41c7fa3f0629f58f89e52f9690aee9f3dff4d8adc4639"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Geometry/Umeyama.h",
+      "sha256_lf": "f1606af01abe78e0b008fa42109bc257801d1bd8bef8c60fb884337a48e5b470"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Householder/BlockHouseholder.h",
+      "sha256_lf": "813fa52ae65ce67f45ca5437740445e52d1aecce09f77993ee847323cecaa1ae"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Householder/Householder.h",
+      "sha256_lf": "4a6f35c282bd96fad7f18717a8b4ad66a7681f2594c4ef5594b3b313688e8b2d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Householder/HouseholderSequence.h",
+      "sha256_lf": "a89c7bbc9a8e7f0ba4d9b382c13fea480e2e411039b832b4ee584c3a624d4ce8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h",
+      "sha256_lf": "60c090eb1e3ff9defd825139aee3e5cda77ace7850158d3682a574ca698676c6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h",
+      "sha256_lf": "2403309090c32abbcca5a2b8882650def8576aa6c395e32c01a7c47edf006b2d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h",
+      "sha256_lf": "6c07bb017ccea21a1e478840497312e90287b76188030bc45cdd73c1adf611d3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h",
+      "sha256_lf": "97fa9e7bae5bfc0c85e783504c486a8909f8c29c45d043a041fae3cca33e67ea"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h",
+      "sha256_lf": "f4de992f883b769435f82fc0601af68d5e11d67ad3a18820d42252b2d4fc5484"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h",
+      "sha256_lf": "455524dc3f734e24a1cd1ebca3c378aa5b2b6e7bb7c47018fb10873fbf48c6ca"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h",
+      "sha256_lf": "8714d9c87d2f7cdb46b9c16b73f2679666819ef9db630a55ea59c956b4190c1f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h",
+      "sha256_lf": "b24501200d464e6de972131a8309fe434bc496c6c12b2397a957d9e8883d829d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/Jacobi/Jacobi.h",
+      "sha256_lf": "7aaafa09ea25c02f6cf78c9e08594617f31d4afced1aa0ebf0e2e74fa5c3a74f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/KLUSupport/KLUSupport.h",
+      "sha256_lf": "b718e630511ba765f6c4298f30385e646b51fb003f0274164824a79fbb005514"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/arch/InverseSize4.h",
+      "sha256_lf": "8c4a357bce437b540a2b9829481df051c8879ef9abe10812e184e10cd2203502"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/Determinant.h",
+      "sha256_lf": "123f081581c38e07a204cf0cb28a220a96d93051fc7c00c8d19b9a186fc2fb27"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/FullPivLU.h",
+      "sha256_lf": "702ed2ee3e70425633198292e989cf308559e64fda172284daf475519312a471"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/InverseImpl.h",
+      "sha256_lf": "61c32ebf15d645a38a24981fe98cc02fa51a9e15bbb15030832c963926a155e4"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/PartialPivLU.h",
+      "sha256_lf": "2dbea49a53a0ecc035f167804008f4cb4652e49fa1899fa4888cd7d1f6c0a64b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/LU/PartialPivLU_LAPACKE.h",
+      "sha256_lf": "e34e5e8934c5c1a591ca3eafd1a7045898c404a95b93eeb374466a1278c44625"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/MetisSupport/MetisSupport.h",
+      "sha256_lf": "c7b5f60a7baf958a7a0b46bf484518b9e49d56bc98ef8965c5433bd7c64f264f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/blas.h",
+      "sha256_lf": "74e5a8752672edadd93637f6dc7feb8a50427ea94f9ac5d1ed56dc2dae0fad67"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/Image.h",
+      "sha256_lf": "f8f9fb664c1462056175f956d9377bedd150e8c45fb89a39ef4463b63686c4a1"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/Kernel.h",
+      "sha256_lf": "2088910ed3d2fd24df3d2f7cd3164bc8457c782a8e0058b7f4adf228a1d3eeba"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/lapack.h",
+      "sha256_lf": "ffdfe0aa46cb3221202a9f2582e39ecf6d5ad66626cdfd70f409859521d68346"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/lapacke.h",
+      "sha256_lf": "06673e96af65b907c83d42495b754361b42bdbf9efc6353d51f2e702396caeb7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/lapacke_mangling.h",
+      "sha256_lf": "7d71fdee53a1e0cd01568aba2f152f2e1e4fbb849e84d740e3b031e819fbfa22"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/misc/RealSvd2x2.h",
+      "sha256_lf": "5fe0795f45cd92a09b48c02259ef743bacbbe86f890cb0c0725c0c03fb56886a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/OrderingMethods/Amd.h",
+      "sha256_lf": "73b83bbbfefd50d0ccc1086a2cb17e8a8e9df38dee64cef310190bf81acd319c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/OrderingMethods/Eigen_Colamd.h",
+      "sha256_lf": "68655daf6bae480b8e9f2c24d3a3b1e624702f15ac1e8c481ee3a9ba260980eb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/OrderingMethods/Ordering.h",
+      "sha256_lf": "cd068f665a798696c534a9b1450c78db323a63713db936bb75db79b4fff52c93"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/PardisoSupport/PardisoSupport.h",
+      "sha256_lf": "c2c56429248b33f3f24faa24904fbaf0263e8bdbb0e4940af89ff8f5be772b4c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/PaStiXSupport/PaStiXSupport.h",
+      "sha256_lf": "82e23d321598e464e3ad85c7596448ea65db51f681db7a28344813337e5f2ef0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/ArrayCwiseBinaryOps.h",
+      "sha256_lf": "dc9ebce46c9243ec3d013746ff25392b6fde9e87eb3c1063858cc16875c19d49"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/ArrayCwiseUnaryOps.h",
+      "sha256_lf": "2f0f0334476bad09adaf5ba3eb8c2528c2b6ab3ae47210832cbd276388513f4c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/BlockMethods.h",
+      "sha256_lf": "54fe460d2f69168b0db431756e96b4a5467dbaaa426acdc21b87a507a7c26b0f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/CommonCwiseBinaryOps.h",
+      "sha256_lf": "1f8a9bec47fcd5f7f529d5956e15da2d0d32511879bdf613d39fb22fbc9b4498"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/CommonCwiseUnaryOps.h",
+      "sha256_lf": "2a8ba7687292c6b301ccfeec51c51275210b3744218c2497b1865b5370d83256"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/IndexedViewMethods.h",
+      "sha256_lf": "5e9583f2c6105e3bf013ddc1afe2a0685b4aba060ef6110446e9379754046548"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/MatrixCwiseBinaryOps.h",
+      "sha256_lf": "90ea8491924c90080397fb1e3f33d0e1a842f5a3b80b99fc52a20651958c6982"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/MatrixCwiseUnaryOps.h",
+      "sha256_lf": "8410b62cad9a1ed8be0ea7a5b1f1821b0e7330cc6a6858c8c9dfc327e49dd7b3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/plugins/ReshapedMethods.h",
+      "sha256_lf": "398c8eff2a19dd32fb5fc185ac85be20aceab3fd4b6ccd0cf7a1c9c990153a2f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/ColPivHouseholderQR.h",
+      "sha256_lf": "191a654a935f1fdbb58468fe50eff4012ac9b2a530d57f3bdf31f295ff7c32c8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h",
+      "sha256_lf": "3e0e20fee012834d4652f2aff391d9d7499c2c86f64ec0407bc4f150853331bb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/CompleteOrthogonalDecomposition.h",
+      "sha256_lf": "2bcd1741daadb7b1ad68eeadad27bd77ee92bf017f7666244caf9a8a9d343fd6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/FullPivHouseholderQR.h",
+      "sha256_lf": "d263bac11d8ecf82e43beeb77628b1b62e6646913094ad63e894295d38e49e1e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/HouseholderQR.h",
+      "sha256_lf": "6ee0d450a2a447b1adb86e7d9c69a764e1cfb8f39f9d6a99fa89a162aedeeedf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/QR/HouseholderQR_LAPACKE.h",
+      "sha256_lf": "8a8486145c909c2108aaf1bbd5b448f91c0bb2553070da5e4e1b38661b76aa87"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCholesky/SimplicialCholesky.h",
+      "sha256_lf": "a09cf71c03a05bd9df970ef39e4cbdeda3ff489cfb4bdbf084e85e9567d77bf0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h",
+      "sha256_lf": "7457696be14e26568e8abc32f4c65a76c9cc8deb2feefc07a57595932e5b48f3"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/AmbiVector.h",
+      "sha256_lf": "e6b6ce53a2e6ba872e6df9439691c95be2d5f116cb56de763f194dc000fedb84"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/CompressedStorage.h",
+      "sha256_lf": "29bb2668e1022d7fbf742af0e25e4e1fca9262d85c365e75947114ace00495f5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h",
+      "sha256_lf": "3524c2d34cb5a5e3c4db2d7535a5a22a457e719ee2403bb80f4b907655f5688e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/MappedSparseMatrix.h",
+      "sha256_lf": "2ea4abaa6fc437a2974174c5204c6bdb0e40cc6b59dfd33bd020d9c2dd660eda"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseAssign.h",
+      "sha256_lf": "57dfc1270120b32e37def64f69990d733ed51da52dc45b72f03ac6db2ec16f2d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseBlock.h",
+      "sha256_lf": "07f468bbf114d435ec9da04d6ca0b940f1fd7d63b62548c7f9d8130550b42451"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseColEtree.h",
+      "sha256_lf": "871be15fce8853900437445ee4913bba0c9c3d6af08e6313f3deb9cb916e9344"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseCompressedBase.h",
+      "sha256_lf": "8bf4030149985e1fe8fe8afc3a873af8e1f0ce5f3c3c52232b580ad6e4f110d7"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseCwiseBinaryOp.h",
+      "sha256_lf": "50cf08b13aa7a8e215bdc54f34c23be25906bb44c2edcd7edce1c3e04d3453b5"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseCwiseUnaryOp.h",
+      "sha256_lf": "1adefb0d699b143db5fb6b609b75021c3141def16a834ed9ccf3a62b5b18754f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseDenseProduct.h",
+      "sha256_lf": "4be488722a9e43c0aad1e4678ddc0ed16fa7253756ac9f5c0d2c94a532839f04"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseDiagonalProduct.h",
+      "sha256_lf": "aa5d600eb466743c6ead15ca60ab77e79f15579eabc24920dfdab5ae6363519f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseDot.h",
+      "sha256_lf": "a8d305b52c1dc6e66b2402dfb6ec1cd54967f1d5cf1e7ecef81e876277d78767"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseFuzzy.h",
+      "sha256_lf": "f87bcc4641b02eea1e015454cda4f124e65eacad4b2a817bcc88549edce91370"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseMap.h",
+      "sha256_lf": "2c43629c60e0ccffb47d22f17bd202d909931a9bf0ebe5a6619a2ecbdf061fa0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseMatrix.h",
+      "sha256_lf": "51a85c9f28e393d7a7ab5694be59ea235779cc17874aff2b1c38d5afc04ab9fb"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseMatrixBase.h",
+      "sha256_lf": "bcab93293b4e63a50002881a13bc9548f125bda9c10aa241e2883907b908db58"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparsePermutation.h",
+      "sha256_lf": "30e0a30a0418db9a58b4f31086f1af91193c9285ae18ef1d93441132a4ad88cf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseProduct.h",
+      "sha256_lf": "5cbdbbf2c0ebb1c9b91f50a56ccc96b69f73305f8aa0cfaf79c77e7d7126659d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseRedux.h",
+      "sha256_lf": "f3e68290cad5fbbba0ecf8284fa238a52072108e3368c0632f8c90816b41dc91"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseRef.h",
+      "sha256_lf": "2a9584cb3f8148342bda3905638d6aa65f35935c686ddd3d32ba097807adf740"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseSelfAdjointView.h",
+      "sha256_lf": "a4a31af4749955fe130eb4acdd640f1e6f35fb2bd858dfd7dd06c31976610a1b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseSolverBase.h",
+      "sha256_lf": "fc525e230bdb66f4ba4d79d02386ea716d3b01eba5b734533a171f043a20a479"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseSparseProductWithPruning.h",
+      "sha256_lf": "a09f7932bf0fa3106555cbb2224f37c409c0f41f014c5f122c516bf092f331c8"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseTranspose.h",
+      "sha256_lf": "bf3180918315deb7dc433fa0d4f388d7a4209fa430783cc9d80373ab88bfd72e"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseTriangularView.h",
+      "sha256_lf": "c0bce29b40b11481ed84f3e77fe0444e7788c43a6be68b3b58c9a6db6221a6cf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseUtil.h",
+      "sha256_lf": "41b25d1cb05756294f1cc611949529bb6e362185c2ca58ee45653a1a0d021f21"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseVector.h",
+      "sha256_lf": "1574760419588cdef8fd8ec71adff12b5e2a198f7796664e2e2ec5119356e21f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/SparseView.h",
+      "sha256_lf": "b6ded852f6d8ab8142ee8f0e8cc44013910d300c838018c9430db77e41712982"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseCore/TriangularSolver.h",
+      "sha256_lf": "e9caf168bfdea718fa900283448395de5791b237683df10caf0b453cf4ed314f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU.h",
+      "sha256_lf": "d23afc1552ea6d7958792a10149080f33f56a75814663fab33ff19cfb0dde053"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_column_bmod.h",
+      "sha256_lf": "504173ccf9d9a0cbe9feaee1c9a34968c41a8af9ee28681f53c38c70b918f44a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_column_dfs.h",
+      "sha256_lf": "ff5ba498aa4288fc6a2c73ffb16ef0c091747f9f0b3732666f5d9d97576e3b77"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h",
+      "sha256_lf": "c6e7a3007e53f7bde5668c57adf4df64cae9e5dfc6596384533792b2a45a1639"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_gemm_kernel.h",
+      "sha256_lf": "134ca932dcb40ad27d8f28900256ec06b51d814dedd481e12d7a2aff6f643fa2"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h",
+      "sha256_lf": "e87e76a8d5b5f4e4c081a1800ac7154b7d2bf5966392d1d8cd2e1a108c453cb9"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_kernel_bmod.h",
+      "sha256_lf": "c2c4d8f589e9134eb8669fada7bf6f86c9f7d65795e2b9079955648d06955825"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_Memory.h",
+      "sha256_lf": "d11b69a99c2fd957a86272f513fd96e7965ff90f062417c21962a725548c34aa"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_panel_bmod.h",
+      "sha256_lf": "13464c3e6539f5036bc592c114341a7d9a5b5b7d3276ecf060826ec78d7d035d"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_panel_dfs.h",
+      "sha256_lf": "1c7c706c25786c3783570a3a3e5efb8e14e70950229c2435d26da8ce2d3fc43c"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_pivotL.h",
+      "sha256_lf": "5ad1a6b28183f605213c8987d9fe15dd17d57876dbc958210ec3ed0213306c5b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_pruneL.h",
+      "sha256_lf": "c5b9134a43ba6361061875b2f331c355b1203942639bf6d02db1d5ece3a159bc"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_relax_snode.h",
+      "sha256_lf": "c665a42771eb09e631fe8d9bed5d4db53c28b2482df381739a0e4e1cee1924d6"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_Structs.h",
+      "sha256_lf": "8a204a6a9409586135ff5218420dc6e1389fcdae1cfe072750fd4478a8394614"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h",
+      "sha256_lf": "5c4b0609b55b46e37b9f77eb2f0ac6ba9586f6f2a19181c1cc55666d8e957e5a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLU_Utils.h",
+      "sha256_lf": "55f6cb16d53c850699977b228d2b3428a2753a4e1e1f4919c1f4a5003d427210"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseLU/SparseLUImpl.h",
+      "sha256_lf": "c6a155332ca1b7894e00f3f7ea5cfe38b4ca0cb2d5e3f69b025c40137e7c0e40"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SparseQR/SparseQR.h",
+      "sha256_lf": "6fb9085f495fb163845ec7058ef89a50e28c9227859c69cf7641cd3880b4ee6b"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h",
+      "sha256_lf": "68145b7331a5b821425b4cface3f953efddf3e7b1e192e58fcb5ad0933efba01"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/StlSupport/details.h",
+      "sha256_lf": "3785c06753150648f95aaa9fd29babcf0f01376a0132a91e9cfc820bb6541781"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/StlSupport/StdDeque.h",
+      "sha256_lf": "9f070bc41ce79c22be5d7215ccb8fa9b74c4f6f35fea1081e6b13056094432d0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/StlSupport/StdList.h",
+      "sha256_lf": "fcfa0ff498e9331147c91b7689eac3d3b90a630e5809a43e9b6b9f7fff5bbfd0"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/StlSupport/StdVector.h",
+      "sha256_lf": "64c1533368abc7e66b98d0cc2180b2a11456bdf35d69bd7c5d754ded66208788"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SuperLUSupport/SuperLUSupport.h",
+      "sha256_lf": "c269eba6730543628a819276619d2c1b0b6739159f341eb3571ef257ffa62333"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SVD/BDCSVD.h",
+      "sha256_lf": "fd6e4b1d4a5383ba44e3c8c20aaa197fa25b193b94050efac781049273fd12bf"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SVD/JacobiSVD.h",
+      "sha256_lf": "8409c413f2193d51ea9669c2f0b7d280319da95265a35c323fabc65f8a407108"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SVD/JacobiSVD_LAPACKE.h",
+      "sha256_lf": "91aeb6dcd05f0eb685d7171ae98f953599493d651c3eec3b0c8df90e59d22e9a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SVD/SVDBase.h",
+      "sha256_lf": "ec1658c7f805aac8a2621a1b1e63fa84a8fed21c7f24e176ec862a945562300a"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/SVD/UpperBidiagonalization.h",
+      "sha256_lf": "e88a6624218c9b6933ce125e2c03d036df9c4a67439be51c78e9b940d0d21f5f"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/src/UmfPackSupport/UmfPackSupport.h",
+      "sha256_lf": "b68ea08ecb59deeec50370c111e91ccd233050fe629d8f54a124727923feea76"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/StdDeque",
+      "sha256_lf": "c1885167a447825ab7c35573422c3efa23dec62f5b630ac322ffe658e0ee5242"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/StdList",
+      "sha256_lf": "03540e297ae96ed03e828d9a433bb7f5a5e93aa83c6f50a6c271c78f9283d667"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/StdVector",
+      "sha256_lf": "7e8b1060757a1140298ff3905df70edb59ad1083f505681df30dc9dc9963d8ab"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SuperLUSupport",
+      "sha256_lf": "8aa601f3fa1e6bfc03b799666bf39ebc42d44917a5fb2aaa489beafd63901f72"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/SVD",
+      "sha256_lf": "1155a32efd664cb43333a34fa8acbcbc26fa33adaedfee8e20eddf67436ae886"
+    },
+    {
+      "path": "rabitqlib/third/Eigen/UmfPackSupport",
+      "sha256_lf": "003d41fa08cde68b1c4698499fa9bf9c803cebb27ae748615851519f42dc56ac"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/bruteforce.h",
+      "sha256_lf": "da1f179e99d8e5a4c39b5db0c681bccf3c63e797aaa4982620519f8e001cb2c6"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/hnswalg.h",
+      "sha256_lf": "fde34fc5baba3fa53516a1dd4e78fe1f62d3bf596c8455c1608cb827e7dd5451"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/hnswlib.h",
+      "sha256_lf": "3a8a1fb5f81d8d698da31f6111c38d8d304a108aa2025050f4e589c416e575bc"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/space_ip.h",
+      "sha256_lf": "eb484b4c894e3a288d41f9d7778346c1b74523600fa40e79aa076e2d33cfa675"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/space_l2.h",
+      "sha256_lf": "c599d024657896412250b4fde1a95e39f8bc55cccd263f36c8948fa35779edf1"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/stop_condition.h",
+      "sha256_lf": "930da73eead77dff0c8c9f3281c5d12250051c90ef98fcfbab8f5f307bdae8d9"
+    },
+    {
+      "path": "rabitqlib/third/hnswlib/visited_list_pool.h",
+      "sha256_lf": "8e5bab8d12b5ef26e3b603b656b8a1acba6738498d1d98f44c9fdb1cb0e25110"
+    },
+    {
+      "path": "rabitqlib/utils/array.hpp",
+      "sha256_lf": "41870b356750edac15009b57dd6f2332056944ea827aac5b7e83ce7eb89675f1"
+    },
+    {
+      "path": "rabitqlib/utils/buffer.hpp",
+      "sha256_lf": "fe2199d51e0d4ed1eddd9aa9c5cd175820ed8d5613e527ac35db9f4db33c71dd"
+    },
+    {
+      "path": "rabitqlib/utils/fht_avx.hpp",
+      "sha256_lf": "4530dcc8516a4a4252b2fb1d3d89bd82894827b296c3633b1fde36e75eab459c"
+    },
+    {
+      "path": "rabitqlib/utils/hashset.hpp",
+      "sha256_lf": "8d0163a12b6060739a128334f776eef4e64ed38324f3108d1b9e75ee0a8c8d0f"
+    },
+    {
+      "path": "rabitqlib/utils/io.hpp",
+      "sha256_lf": "8111621808fd846e6d9e1575cf6f3becf3b695a098b64b39431e0f866700bad0"
+    },
+    {
+      "path": "rabitqlib/utils/memory.hpp",
+      "sha256_lf": "e36b78bc4bd0d37613187e0c123f5cdb6eec2fd660f225f95b0e64f1db42066b"
+    },
+    {
+      "path": "rabitqlib/utils/rotator.hpp",
+      "sha256_lf": "78772f47cd3a04b8f7837dea5576dd2becd1a4ca31f2c8142dc6e570aeaa9f5d"
+    },
+    {
+      "path": "rabitqlib/utils/space.hpp",
+      "sha256_lf": "bacec45b8c93fe809349bc0311ae61dbf9c06f8fe3517de65a71ca37e492a9dd"
+    },
+    {
+      "path": "rabitqlib/utils/stopw.hpp",
+      "sha256_lf": "43a93d784381b3d289a85cd20745ab46d2f4b35ac4d374fe216523dc65689c0b"
+    },
+    {
+      "path": "rabitqlib/utils/tools.hpp",
+      "sha256_lf": "16e7f2e1ec981fb13f9bbf3e4a5c7538a1de52c41106baa92fe158532e3a7e45"
+    },
+    {
+      "path": "rabitqlib/utils/visited_pool.hpp",
+      "sha256_lf": "6815c277e0e740d29198a2996d8df2c9407677e83ba235dde88befde49ce0e14"
+    },
+    {
+      "path": "rabitqlib/utils/warmup_space.hpp",
+      "sha256_lf": "f862e7dcff08ffdf09087d4b38fc89369248708786a04fdc89a02c2357c457aa"
+    },
+    {
+      "path": "shell/build_hnsw_bottom.sh",
+      "sha256_lf": "c946d4313e961796abebbda7bb42dfaeff090f4dbc8fd56cb55a4c5449905f71"
+    },
+    {
+      "path": "shell/build_hnsw_bottom_rabitq.sh",
+      "sha256_lf": "2fa7306a14863dd01a0af286429c2d054ebc043f47ef81b22734bff651e7f1e5"
+    },
+    {
+      "path": "shell/build_hnsw_ngfix.sh",
+      "sha256_lf": "11b535b7d700007773c9059df02263a8a78a7919898ad2057f6fabd2d0436cd9"
+    },
+    {
+      "path": "shell/build_hnsw_ngfix_aknn.sh",
+      "sha256_lf": "f9ba306864e4ca8b34e0594a1cd0777b4a5abfa1541d01af59be36b11f4c592c"
+    },
+    {
+      "path": "shell/build_hnsw_ngfix_rabitq.sh",
+      "sha256_lf": "a3832f2003a588b44ba3c7bd84307f1f58c85a13baa95c64dd4cf492261b4c44"
+    },
+    {
+      "path": "shell/build_webvid_hnsw_m32.sh",
+      "sha256_lf": "f73d09088caf70ad94d8180686801e2fb60e309641b6df7f3031d640af3e8008"
+    },
+    {
+      "path": "shell/search_hnsw_ngfix.sh",
+      "sha256_lf": "c09b832d2ee5e2c5f564344b2493a37026ec4a8c4919b8d4046a8442e44720e8"
+    },
+    {
+      "path": "shell/search_hnsw_ngfix_rabitq.sh",
+      "sha256_lf": "0c0460e06296d2c0c54238ec6e4e34edbfab2a419bfecfd4d81ef8be2a5a5830"
+    },
+    {
+      "path": "shell/search_webvid_boundtwohop.sh",
+      "sha256_lf": "0a404c23ef3a7fbc5fdf2f8a9390fc37ea9034856d900c0c352af7db4a8e04af"
+    },
+    {
+      "path": "shell/search_webvid_boundtwohop_events.sh",
+      "sha256_lf": "011a2a50d6942778e8c9f125784afa819e317210de832d44149efad1991f97d7"
+    },
+    {
+      "path": "shell/search_webvid_boundtwohop_triplet_trace.sh",
+      "sha256_lf": "1488c8321f0c49b079ae132fd50ffd6984ceba4c311276cd77a086c27957e628"
+    },
+    {
+      "path": "shell/search_webvid_clean_qps.sh",
+      "sha256_lf": "a1032c1ee745218f2d360f56ddec39bba88d4408c3edd29a3aea9f7a9a08d7ec"
+    },
+    {
+      "path": "shell/search_webvid_compare.sh",
+      "sha256_lf": "9c26f7a3057055fe21386046a0a01e9fb646217e5abc9a0d06b656210f65a6e1"
+    },
+    {
+      "path": "shell/search_webvid_cur_mid_full.sh",
+      "sha256_lf": "c0b191cb361977517df7a7d307197976cfd92ab8f81dc82dbbc05e6e0e904a6f"
+    },
+    {
+      "path": "shell/search_webvid_graph_k_matrix.sh",
+      "sha256_lf": "1f300cb29456672a598e6632f0932951f9fd481759ed96243b6e5bc5835dcfe4"
+    },
+    {
+      "path": "shell/search_webvid_hnsw_selective_prefix.sh",
+      "sha256_lf": "46c7d3e93724aaa9ccdc1fcf74d686d526405e639d931048c3faae21f8ef1cbb"
+    },
+    {
+      "path": "shell/search_webvid_hnsw_stage1.sh",
+      "sha256_lf": "1a8f7f30e1333dfb2abb591b9edbb3d5496a92ab96562fd841275b0be2a61b4f"
+    },
+    {
+      "path": "shell/search_webvid_jump_gates.sh",
+      "sha256_lf": "59f79092de7f1290dd8f2a63d6a15b1aa77b78e870fac360e9a44bb7f1489ac8"
+    },
+    {
+      "path": "shell/search_webvid_jump_schedule.sh",
+      "sha256_lf": "8329b577c5ce583f3930602f8d1f9da90a1f8d7164b7602a1002bed5d0011642"
+    },
+    {
+      "path": "shell/search_webvid_nn_selection.sh",
+      "sha256_lf": "26d03d0c5979c9ed6d070c390c4838f41260e55a16121bbfe7ec21f0e36754ff"
+    },
+    {
+      "path": "shell/search_webvid_stage1_dabs.sh",
+      "sha256_lf": "92e81ec7dc28d0092f8321f3700bb7e06b1edf21d8710adb7d4e0b5be81a852f"
+    },
+    {
+      "path": "shell/search_webvid_verified_base.sh",
+      "sha256_lf": "5d137074ca653872114936d4cec03cd0404966863320a7b67941b8449fdb0f95"
+    },
+    {
+      "path": "shell/test_hnsw_ngfix_deletion.sh",
+      "sha256_lf": "60d76569149700c16e3ec8c5e6f5eeca99c3d47992fc26de68e2cb4322274662"
+    },
+    {
+      "path": "shell/test_hnsw_ngfix_insertion.sh",
+      "sha256_lf": "0b788b8f60c691ede7b32df5cfc0cc492e78575b3796306c190e4f4e2d5f14a3"
+    },
+    {
+      "path": "shell/trace_webvid_bound_features.sh",
+      "sha256_lf": "27b11ba29bab44a599045beedd197a96110f252cfc00b7bcbb5cdf06411b71c8"
+    },
+    {
+      "path": "shell/webvid_ngfix_ef_grid.sh",
+      "sha256_lf": "be0ad51ba7c0e001d631d55c261a7563c9b9e99630bc2eebd148a4481f464434"
+    },
+    {
+      "path": "test/bench_hnsw_cur_mid_full.cc",
+      "sha256_lf": "1efbf7ed785ab371ce4cd8d9084f396b8a034a07974e25e85d94c7f804a893fa"
+    },
+    {
+      "path": "test/bench_hnsw_ngfix_clean.cc",
+      "sha256_lf": "7dfdb6ef98c6a70e12cf89d91567e0a4dc8ced23974062623a3a633e1a041b65"
+    },
+    {
+      "path": "test/bench_hnsw_selective_prefix.cc",
+      "sha256_lf": "2ec6ecf075d3e11f19f752aa0640086abef4c5131886a7cc2a8fff52039b4594"
+    },
+    {
+      "path": "test/bench_hnsw_unbounded_clean.cc",
+      "sha256_lf": "2ac0596ad16fbe30c5ae8ff6c77d406a8b9baa6f6b02cb02e269d231163ab457"
+    },
+    {
+      "path": "test/build_hnsw_bottom.cc",
+      "sha256_lf": "e70c690628289c0fa29e3fe04065693b06625a0c8e695478b8f242991e21233c"
+    },
+    {
+      "path": "test/build_hnsw_ngfix.cc",
+      "sha256_lf": "35fdd21668b201f934afcbc7835f325761a952fb998044e9442c8c5d32d36c20"
+    },
+    {
+      "path": "test/build_hnsw_ngfix_aknn.cc",
+      "sha256_lf": "c27bce3cf430a3e41feb006c3985ad81a2a6a1fbfb61e9fe54cf085c09f64dd1"
+    },
+    {
+      "path": "test/CMakeLists.txt",
+      "sha256_lf": "42dd8e57876e6d7e7a868d76a367cf01360bedf4a10e3ff2ae88432f4d77a64b"
+    },
+    {
+      "path": "test/rabitq_opt/build_hnsw_bottom_rabitq.cc",
+      "sha256_lf": "13aa13a8e7b496813e1f8f46584b8cfbb3baa87975d326dbe8ad18bcf189bdfa"
+    },
+    {
+      "path": "test/rabitq_opt/build_hnsw_ngfix_rabitq.cc",
+      "sha256_lf": "76eb1f3c2f51f742c965a2447bceda3bcb95562d8fdd74cd19b996abd535541f"
+    },
+    {
+      "path": "test/rabitq_opt/search_hnsw_ngfix_rabitq.cc",
+      "sha256_lf": "86f6093fc98a13fa5c456503bb8bfa3c49149fb0ae652bc57b006fe3c702b2f1"
+    },
+    {
+      "path": "test/search_hnsw_ngfix.cc",
+      "sha256_lf": "45c34df05016c311a771329645ed8f3dc0ee65f78e3946816ff1120b42ab10e2"
+    },
+    {
+      "path": "test/test_clean_qps_search.cc",
+      "sha256_lf": "5bde6fbe969e2c65742f1a37034f506fe7d3f631b04003c8dbb80b3654a945ed"
+    },
+    {
+      "path": "test/test_cur_mid_full_search.cc",
+      "sha256_lf": "4d62383848ac208690d3552892d78fda7b36f41e30bacde3e0e91d3fc9e5b57a"
+    },
+    {
+      "path": "test/test_hnsw_ngfix_deletion.cc",
+      "sha256_lf": "b363e52b7f447db8fb143eb573c7c866985224718fcfc161b921bfe1e0da4b29"
+    },
+    {
+      "path": "test/test_hnsw_ngfix_insertion.cc",
+      "sha256_lf": "f2123228f349ecb01282b805da1bdeb946bcfb7c3bd232c7c2d90b933aeb727d"
+    },
+    {
+      "path": "test/test_jump_nn_selection.cc",
+      "sha256_lf": "e455796da80e4e5e3de6924136d436d2791ae7a1cc4c3523b685e8527d491d29"
+    },
+    {
+      "path": "test/test_jump_nn_selection_search.cc",
+      "sha256_lf": "5819b2127abcc3fff03d8e9cc3fe51b56bd5725f78451e875e2216290b2c8212"
+    },
+    {
+      "path": "test/test_jump_schedule.cc",
+      "sha256_lf": "d9e0f11ee6e23e45eaf4945a8796f99490cef6d4f453ccf6ae90de9994f21497"
+    },
+    {
+      "path": "test/test_jump_schedule_search.cc",
+      "sha256_lf": "a4b95ab25e91490ec48b1ac1409b1df0590834e7d35b3e69259ad50020346ad0"
+    },
+    {
+      "path": "test/test_selective_prefix_search.cc",
+      "sha256_lf": "00f20963bc6196893c7c682e5607a99b342b55f73d192af9df176fb0982b895b"
+    },
+    {
+      "path": "test/test_unbounded_clean_search.cc",
+      "sha256_lf": "4742f634b078275a2e97dc4c75e6462b764ae39c4ea897494eab4542d4b37def"
+    },
+    {
+      "path": "test/tools/data_loader.h",
+      "sha256_lf": "de4e3546537a49f2e5a279584a219782d1d2aaca475746d2fe08be2736d73caa"
+    },
+    {
+      "path": "test/tools/result_evaluation.h",
+      "sha256_lf": "f0872648791c6011319f2ccdd0c36a05febde900c4f578e14ac40db46353744f"
+    },
+    {
+      "path": "test/tools/result_evaluation_rabitq.h",
+      "sha256_lf": "91008cc89b593e98a6f49332c2427f8d5602d8e8cd7a8cf865b9a59ae90d162f"
+    }
+  ]
+}
